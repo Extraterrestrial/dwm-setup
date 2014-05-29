@@ -1,0 +1,26 @@
+#!/bin/sh
+
+if [ "$1" = "stop" ]; then
+    kill $(cat /tmp/dwm-session.pid) $(pidof dwm)
+    exit $?
+fi
+echo $$ > /tmp/dwm-session.pid
+
+xset +fp /usr/share/fonts
+xset fp rehash
+
+while :; do
+    dwm &
+    pid="$!"
+    if [ -z "$restart" ]; then
+        ~/.config/dwm-autostart.sh
+    fi
+
+    # raise xxkb window after restart
+    xxkbid=`xdotool search --class xxkb`
+    if [ -n $xxkbid ]; then
+        xdotool windowraise $xxkbid
+    fi
+    wait $pid
+    restart=1
+done

@@ -1,0 +1,50 @@
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xcursor.theme: Adwaita
+!! xterm settings
+XTerm*background: #002B36
+XTerm*foreground: #657B83
+XTerm*faceName: Terminus:size=8
+XTerm*pointerShape: left_ptr
+! XTerm*cursorUnderLine: true
+XTerm*title: xterm
+XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+XTerm*metaSendsEscape: true
+
+!! xclock settings
+XClock*geometry: 110x25+0+0
+XClock*faceName: Terminus:size=8
+XClock*background: rgb:4e/4e/4e
+XClock*foreground: rgb:ff/ff/ff
+XClock*mode: Digital
+
+!! XEyes settings
+XEyes*geometry: 150x100+-1+650
+
+! Solarized theme for xterm
+XTerm*color0: #073642
+XTerm*color8: #31555E
+
+XTerm*color1: #DC322F
+XTerm*color9: #CB4B16
+
+XTerm*color2: #859900
+XTerm*color10: #586E75
+
+XTerm*color3: #B58900
+XTerm*color11: #657B83
+
+XTerm*color4: #268BD2
+XTerm*color12: #839496
+
+XTerm*color5: #D33682
+XTerm*color13: #6C71C4
+
+XTerm*color6: #2AA198
+XTerm*color14: #93A1A1
+
+XTerm*color7: #EEE8D5
+XTerm*color15: #FDF6E3
+

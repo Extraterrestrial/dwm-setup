@@ -1,0 +1,10 @@
+out_to_x no
+out_to_console yes
+background no
+update_interval 1
+total_run_times 0
+short_units yes
+
+TEXT
+[38;5;124mÜ[48;5;124m[38;5;255m Msgs: ${head ~/.mcabber/msgs 1 1} [38;5;24mÜ[48;5;24m[38;5;123m È CPU: ${cpu 0}% [38;5;31mÜ[48;5;31m[38;5;123m Þ Mem: ${mem}/${memmax} (${memperc}%) [38;5;38mÜ[48;5;38m[38;5;17m Bat: ${battery_percent BAT1}% [38;5;26mÜ[48;5;26m[38;5;17m Õ ${time %a %h %d, %H:%M} [38;5;24mÜ[48;5;24m[38;5;123m À     
+
